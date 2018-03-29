@@ -1,0 +1,9 @@
+bulb
+can
+helmet
+jug
+knife
+mouse
+sofa
+spinner
+wheel

@@ -1,0 +1,8 @@
+prefix=/home/austin/EECS484_project/simulation/install
+
+Name: image_recognition
+Description: Description of image_recognition
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/austin/EECS484_project/simulation/install/lib 
+Requires: 

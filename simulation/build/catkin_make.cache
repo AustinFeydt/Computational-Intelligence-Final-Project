@@ -1,0 +1,2 @@
+image_recognition
+-DCMAKE_BUILD_TYPE=Release -DCATKIN_DEVEL_PREFIX=/home/austin/EECS484_project/simulation/devel -DCMAKE_INSTALL_PREFIX=/home/austin/EECS484_project/simulation/install -G Unix Makefiles

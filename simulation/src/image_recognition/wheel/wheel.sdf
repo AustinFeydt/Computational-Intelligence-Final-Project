@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <model name="wheel">
+    <static>false</static>
+
+    <link name="link">
+      <pose>0.0 0 0.0 0 0 0</pose>
+<inertial>
+        <mass>0.1</mass>
+      </inertial>
+     <collision name='collision'>
+     <geometry>
+          <mesh>
+            <uri>file:///home/austin/EECS484_project/simulation/src/image_recognition/wheel/meshes/wheel.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+           <uri>file:///home/austin/EECS484_project/simulation/src/image_recognition/wheel/meshes/wheel.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

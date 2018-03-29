@@ -1,0 +1,9 @@
+<launch>
+<!--x,y,z = 1.0, -0.11, 0.8  rpy = 0,0,0.43-->
+<arg name="x"  />
+<arg name="y"  />
+<arg name="z"  />
+<arg name="yaw"  />
+
+<node name="spawn_sdf" pkg="gazebo_ros" type="spawn_model" args="-file $(find image_recognition)/wheel/wheel.sdf -sdf -model wheel -x $(arg x) -y $(arg y) -z $(arg z) -yaw $(arg yaw)" />
+</launch>
